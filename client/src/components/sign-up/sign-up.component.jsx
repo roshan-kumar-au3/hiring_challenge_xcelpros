@@ -25,7 +25,7 @@ const SignUp = () => {
     setUser({ ...user, [name]: value });
   };
 
-  const handleSubmit = event => {
+  const handleSubmit = (event) => {
     event.preventDefault();
     let newUser = {
       firstName: user.firstName,
